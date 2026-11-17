@@ -4,16 +4,16 @@ import matplotlib.pyplot as plt
 x = []
 y = []
 
-for x in range (-6,8):
-    calc = x**2
-    x.append()
-    y = y + calc
-    y.append()
+for number in range (-6,8):
+    calc = number**2
+    x.append(number)
+    y.append(calc)
 
 
-plt.plot(x)
+plt.plot(x, y)
 plt.xlabel("Horizontal Axis")
-plt.plot(y)
 plt.ylabel("Vertical Axis")
+plt.title("Parabola Graph")
 
 plt.savefig("ParabolaGraph.png")
+plt.show()
