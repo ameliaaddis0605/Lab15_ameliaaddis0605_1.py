@@ -1,3 +1,10 @@
+"""
+Parabola Plotter
+Amelia Addis
+This program creates a physical graph of a parabola that changes as the range does.
+11/16/2026
+"""
+
 import math
 import matplotlib.pyplot as plt
 
